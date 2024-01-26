@@ -25,6 +25,7 @@ public class LoginTest extends BaseClass{
         cP.pressCheckOut();
         checkOutPage checkOut = new checkOutPage(this.driver);
         checkOut.enterCountry("India");
+        System.out.println("Hello");
 
 
     }
